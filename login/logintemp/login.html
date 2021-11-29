@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Login Page</title>
+</head>
+<body background="{% static 'images/image2.jpg' %}">
+    <br/>
+    <form name="" action="" method="post">
+        <table align="center" cellspacing="10" cellpadding="10">
+            <tr>
+                <th colspan="2" style="color: aliceblue; font-family: Verdana, Geneva, Tahoma, sans-serif;">WELCOME TO LOGIN PAGE</th>
+
+            </tr>
+            <tr>
+                <td style="color: aliceblue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><label>USER NAME</label></td>
+                <td><input type="text" name="usrname" placeholder="Enter Your Username"></td>
+            </tr>
+            <tr>
+                <td style="color: aliceblue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><label>PASSWORD</label></td>
+                <td><input type="password" name="paswrd" placeholder="Enter your password"></td>
+
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><button type="submit">SIGN IN</button></td>>
+            </tr>
+
+
+        </table>
+    </form>
+</body>
+</html>
